@@ -13,7 +13,7 @@ cd app && npm run build && npm run preview                    # production check
 
 ## Pages base path
 
-`app/vite.config.ts` sets `base: '/dsa_project/'` for the repo subpath. `HashRouter` is used so deep links (`#/sort/bubble`) work without a SPA fallback.
+`app/vite.config.ts` sets `base: '/dsa-vis/'` for the repo subpath. `HashRouter` is used so deep links (`#/sort/bubble`) work without a SPA fallback.
 
 ## Roadmap
 
