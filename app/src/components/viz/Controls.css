@@ -1,0 +1,77 @@
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  padding: 8px 10px;
+}
+
+.controls-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.controls-label {
+  font-size: 13px;
+  color: var(--muted);
+  white-space: nowrap;
+  font-family: var(--mono);
+}
+
+.controls-size {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.controls-size input[type="range"] {
+  width: 130px;
+}
+
+.controls-speed {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.controls-speed select {
+  font: inherit;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 5px 8px;
+}
+
+.controls-scrub-row {
+  flex-wrap: nowrap;
+}
+
+.controls-scrub {
+  flex: 1;
+  min-width: 0;
+}
+
+.controls-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.controls button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+@media (max-width: 640px) {
+  .controls-size input[type="range"] {
+    width: 100px;
+  }
+}

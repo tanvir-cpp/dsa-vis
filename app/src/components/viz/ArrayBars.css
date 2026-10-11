@@ -1,0 +1,50 @@
+.arraybars-wrap {
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  padding: 10px 10px 4px;
+}
+
+.arraybars {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.bar {
+  stroke-width: 1.5;
+}
+
+.bar-default {
+  fill: var(--surface-2);
+  stroke: var(--border);
+}
+
+.bar-compare {
+  fill: var(--accent);
+  stroke: var(--accent);
+  opacity: 0.9;
+}
+
+.bar-swap {
+  fill: #dc2626;
+  stroke: #991b1b;
+}
+
+.bar-sorted {
+  fill: rgba(22, 163, 74, 0.2);
+  stroke: #16a34a;
+}
+
+.bar-label {
+  font-size: 22px;
+  font-family: var(--mono);
+  fill: var(--muted);
+}
+
+.arraybars-empty {
+  color: var(--muted);
+  font-size: 14px;
+  margin: 4px 2px 8px;
+}

@@ -1,0 +1,55 @@
+.gridcanvas-wrap {
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  padding: 10px;
+}
+
+.gridcanvas {
+  display: block;
+  max-width: 100%;
+}
+
+.gridcanvas-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 8px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.gc-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.gc-sw {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 1px solid var(--border);
+}
+
+.gc-wall {
+  background: var(--surface-2);
+}
+
+.gc-visited {
+  background: var(--accent);
+  opacity: 0.25;
+}
+
+.gc-path {
+  background: var(--accent);
+}
+
+.gc-start {
+  background: #16a34a;
+}
+
+.gc-goal {
+  background: #dc2626;
+}

@@ -1,0 +1,65 @@
+.chainsvg-wrap {
+  width: 100%;
+  max-width: 560px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  padding: 10px 10px 4px;
+  overflow-x: auto;
+}
+
+.chainsvg {
+  display: block;
+  height: auto;
+  background: var(--surface);
+}
+
+.chainsvg text {
+  font-family: var(--mono);
+  font-size: 12px;
+  fill: var(--text);
+}
+
+.cnode {
+  stroke-width: 1;
+}
+
+.cnode-default {
+  fill: var(--surface);
+  stroke: var(--border);
+}
+
+.cnode-hl {
+  fill: var(--accent);
+  stroke: var(--accent);
+}
+
+.chainsvg .cval-hl {
+  fill: var(--accent-ink);
+}
+
+.chainsvg .cindex {
+  fill: var(--muted);
+  font-size: 11px;
+}
+
+.chainsvg .cmark {
+  fill: var(--muted);
+  font-size: 11px;
+}
+
+.carrow {
+  stroke: var(--muted);
+  stroke-width: 1;
+}
+
+.carrow-head {
+  fill: var(--muted);
+  stroke: none;
+}
+
+.chainsvg-empty {
+  color: var(--muted);
+  font-size: 14px;
+  margin: 4px 2px 8px;
+}
